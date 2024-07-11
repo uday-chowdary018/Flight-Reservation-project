@@ -1,0 +1,38 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Complete Reservation</title>
+</head>
+<body>
+	
+	<h2>Complete Reservation</h2>
+	<p>Airline: <spam th:text="${flight.operatingAirlines}"/></p>
+	<p>Departure City: <spam th:text="${flight.departureCity}"/></p>
+	<p>Arrival City: <spam th:text="${flight.arrivalCity}"/></p>
+	
+	<form action="completeReservation" method="post">
+		
+		<fieldset>
+			<legend>Passenger Details:</legend>
+			<label>First Name:<input type="text" name="passengerFirstName"/></label>
+			<label>Last Name:<input type="text" name="passengerLastName"/></label>
+			<label>Email:<input type="text" name="passengerEmail"/></label>
+			<label>Phone:<input type="text" name="passengerPhone"/></label>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Card Details:</legend>
+			<label>Name on the card:<input type="text" name="nameOnTheCard"/></label>
+			<label>Card No:<input type="text" name="cardNumber"/></label>
+			<label>Expiry Date:<input type="text" name="expirationDate"/></label>
+			<label>Three Digit Sec Code:<input type="text" name="securityCode"/></label>
+		</fieldset>
+         <input type="hidden" name="flightId" th:value="${flight.id}"/>
+		<input type="submit" value="confirm"/>
+		
+	</form>
+
+</body>
+</html>
