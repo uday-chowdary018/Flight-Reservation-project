@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Find Flights</title>
+</head>
+<body>
+    <h1>Find Flights</h1>
+    <form action="#" th:action="@{/findFlights}" method="post">
+        <label for="from">From:</label>
+        <input type="text" id="from" name="from" required><br><br>
+        <label for="to">To:</label>
+        <input type="text" id="to" name="to" required><br><br>
+      <!-- <label for="departureDate">Departure Date:</label>
+        <input type="date" id="departureDate" name="departureDate" required pattern="\d{4}-\d{2}-\d{2}"><br><br>
+       -->
+        <input type="submit" value="Find Flights">
+    </form>
+</body>
+</html>
+
+
