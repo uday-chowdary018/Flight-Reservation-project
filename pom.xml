@@ -6,6 +6,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<version>3.3.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
@@ -28,6 +29,8 @@
 		<url/>
 	</scm>
 =======
+=======
+>>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31
 		<version>3.1.8-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
@@ -36,6 +39,9 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>flightreservationproject1</name>
 	<description>flight reservation application</description>
+<<<<<<< HEAD
+>>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31
+=======
 >>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31
 	<properties>
 		<java.version>17</java.version>
@@ -44,10 +50,13 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
 =======
+=======
+>>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 		<dependency>
@@ -55,6 +64,9 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 			<dependency>
+<<<<<<< HEAD
+>>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31
+=======
 >>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
@@ -62,7 +74,10 @@
 		</dependency>
 		<dependency>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31
 			<groupId>jakarta.servlet.jsp.jstl</groupId>
 			<artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
 		</dependency>
@@ -88,15 +103,21 @@
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
+<<<<<<< HEAD
+>>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31
+=======
 >>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 		<dependency>
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<groupId>jakarta.servlet.jsp.jstl</groupId>
 			<artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
 =======
+=======
+>>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31
     		<groupId>com.itextpdf</groupId>
   		    <artifactId>itextpdf</artifactId>
     		<version>5.5.13</version>
@@ -104,6 +125,9 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-mail</artifactId>
+<<<<<<< HEAD
+>>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31
+=======
 >>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31
 		</dependency>
 
@@ -120,10 +144,13 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 <<<<<<< HEAD
+<<<<<<< HEAD
 			</plugin>
 		</plugins>
 	</build>
 =======
+=======
+>>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31
 				<configuration>
 					<image>
 						<builder>paketobuildpacks/builder-jammy-base:latest</builder>
@@ -168,6 +195,9 @@
 			</releases>
 		</pluginRepository>
 	</pluginRepositories>
+<<<<<<< HEAD
+>>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31
+=======
 >>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31
 
 </project>

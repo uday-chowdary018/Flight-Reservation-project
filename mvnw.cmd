@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <# : batch portion
+=======
+>>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31
 =======
 >>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31
 @REM ----------------------------------------------------------------------------
@@ -22,6 +25,7 @@
 @REM ----------------------------------------------------------------------------
 
 @REM ----------------------------------------------------------------------------
+<<<<<<< HEAD
 <<<<<<< HEAD
 @REM Apache Maven Wrapper startup batch script, version 3.3.2
 @REM
@@ -152,6 +156,8 @@ try {
 
 Write-Output "MVN_CMD=$MAVEN_HOME/bin/$MVN_CMD"
 =======
+=======
+>>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31
 @REM Apache Maven Wrapper startup batch script, version 3.2.0
 @REM
 @REM Required ENV vars:
@@ -337,4 +343,7 @@ if "%MAVEN_BATCH_PAUSE%"=="on" pause
 if "%MAVEN_TERMINATE_CMD%"=="on" exit %ERROR_CODE%
 
 cmd /C exit /B %ERROR_CODE%
+<<<<<<< HEAD
+>>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31
+=======
 >>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31

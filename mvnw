@@ -20,6 +20,7 @@
 
 # ----------------------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Apache Maven Wrapper startup batch script, version 3.3.2
 #
 # Optional ENV vars
@@ -259,6 +260,8 @@ mv -- "$TMP_DOWNLOAD_DIR/$distributionUrlNameMain" "$MAVEN_HOME" || [ -d "$MAVEN
 clean || :
 exec_maven "$@"
 =======
+=======
+>>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31
 # Apache Maven Wrapper startup batch script, version 3.2.0
 #
 # Required ENV vars:
@@ -546,4 +549,7 @@ exec "$JAVACMD" \
   -classpath "$MAVEN_PROJECTBASEDIR/.mvn/wrapper/maven-wrapper.jar" \
   "-Dmaven.multiModuleProjectDirectory=${MAVEN_PROJECTBASEDIR}" \
   ${WRAPPER_LAUNCHER} $MAVEN_CONFIG "$@"
+<<<<<<< HEAD
+>>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31
+=======
 >>>>>>> 3e6c6bcabc3fbac038376a7f2ba55644c5facb31
